@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+footer {
+    background-color: var(--main-bg-color);
+    color: white;
+    height: 8vh;
+}
+
+header {
+    background-color: var(--main-bg-color);
+    /* height: 4vh; */
+}
+
+ul {
+    display: flex;
+    /* width: auto; */
+    /* height: 4vh;we are adding the height here bcoz the align items property works when the height the height of the ul is set and not the header so that the lists could be centralized */
+    /* width: 100vw; */
+     /* align-items: center; */
+     /* justify-content: right;  */
+    /* padding: 0 10px 0 0;  */
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0 25px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+img {
+    width: 80px;
+    padding: 0 0 0 10px;
+}
+
+nav {
+    display: flex;
+    height: 8vh;
+    align-items: center;
+    /* justify-content: right; */
+    /* padding: 0 10px 0 0; */
+}
+
+.container {
+   min-height: calc(100vh - 16vh);
+   width: 100;
+}
+li:hover{
+    font-weight: bolder;
+}
+.search{
+    padding: 0 351px 0 0;
+    display: flex;
+
+}
+.search input{
+    width: 30vw;
+    padding: 0 10px ;
+    border: 1px solid black;
+}
+.glass{
+    width: 20px;
+   padding: 0 0 0 0;
+   height: 19px;
+   border: 1px solid black;
+}
+.top img{
+    width: 80vw;
+    height: 60vh;
+    margin: 0 10px;
+}
+.top{
+    
+    display: flex;
+    justify-content: center;
+}
+.card{
+    height: 22vh;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+    justify-content: center;
+}
+.slide{
+    height: 45vh;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+    justify-content: center;
+}
+#image{
+ width: 150px;
+}
+h2{
+    margin: 20px 20px 10px 30px;
+}
+    /* .card-item{
+    display: flex;
+    flex-direction: column;
+    row-gap:0px ;
+} */
